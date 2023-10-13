@@ -28,3 +28,13 @@ func MultiMedian(input []int) []float64 {
 
 	return result
 }
+
+func RecursiveMedian(input []int, result []float64, currentIndex int) []float64 {
+	if currentIndex == len(input) {
+		return result
+	}
+
+	median := SingleMedian(input[:currentIndex+1])
+
+	return RecursiveMedian(input, append(result, median), currentIndex+1)
+}

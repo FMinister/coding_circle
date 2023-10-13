@@ -12,4 +12,4 @@ So far, the following exercises have been covered:
 |:--------:|-------|-------------|
 | ⏳ | [Remove k-th last element](./remove_the_last_element/) | removing the k-th last element from a single-linked list |
 | ⏳ | [Trie](./trie/) | implementing an autocomplete feature using a trie |
-| ⏳ | [Media](./median/) | calculate the median of a list |
+| ✔️ | [Median](./median/) | calculate the median of a list |

@@ -1,8 +1,9 @@
-package median
+package median_test
 
 import (
 	"testing"
 
+	"github.com/FMinister/coding_circle/median"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -22,7 +23,7 @@ func TestSingleMedian(t *testing.T) {
 
 	for _, test := range tests {
 		t.Run(test.description, func(t *testing.T) {
-			result := SingleMedian(test.input)
+			result := median.SingleMedian(test.input)
 			assert.Equal(t, test.expected, result)
 		})
 	}
@@ -44,7 +45,7 @@ func TestMultiMedian(t *testing.T) {
 
 	for _, test := range tests {
 		t.Run(test.description, func(t *testing.T) {
-			result := MultiMedian(test.input)
+			result := median.MultiMedian(test.input)
 			assert.Equal(t, test.expected, result)
 		})
 	}
@@ -66,7 +67,7 @@ func TestRecursiveMedian(t *testing.T) {
 
 	for _, test := range tests {
 		t.Run(test.description, func(t *testing.T) {
-			result := RecursiveMedian(test.input, []float64{}, 0)
+			result := median.RecursiveMedian(test.input, []float64{}, 0)
 			assert.Equal(t, test.expected, result)
 		})
 	}

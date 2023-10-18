@@ -35,11 +35,10 @@ func TestMultiMedian(t *testing.T) {
 		input       []int
 		expected    []float64
 	}{
-		{"single item in list", []int{1}, []float64{1}},
-		{"two items in list", []int{1, 2}, []float64{1, 1.5}},
-		{"three items in list", []int{1, 2, 3}, []float64{1, 1.5, 2}},
-		{"nine items in list", []int{1, 2, 3, 4, 5, 6, 7, 8, 9}, []float64{1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5}},
-		{"ten items in list", []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, []float64{1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5}},
+		{"single item in list", []int{23}, []float64{23}},
+		{"two items in list", []int{23, 42}, []float64{23, 32.5}},
+		{"multiple elements (odd)", []int{23, 42, 36, 35, 31, 27, 172}, []float64{23, 32.5, 36, 35.5, 35, 33, 35}},
+		{"multiple elements (even)", []int{23, 42, 36, 35, 31, 27}, []float64{23, 32.5, 36, 35.5, 35, 33}},
 		{"example list", []int{17, 2, 8, 27, 12, 9}, []float64{17, 9.5, 8, 12.5, 12, 10.5}},
 	}
 
@@ -57,11 +56,10 @@ func TestRecursiveMedian(t *testing.T) {
 		input       []int
 		expected    []float64
 	}{
-		{"single item in list", []int{1}, []float64{1}},
-		{"two items in list", []int{1, 2}, []float64{1, 1.5}},
-		{"three items in list", []int{1, 2, 3}, []float64{1, 1.5, 2}},
-		{"nine items in list", []int{1, 2, 3, 4, 5, 6, 7, 8, 9}, []float64{1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5}},
-		{"ten items in list", []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, []float64{1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5}},
+		{"single item in list", []int{23}, []float64{23}},
+		{"two items in list", []int{23, 42}, []float64{23, 32.5}},
+		{"multiple elements (odd)", []int{23, 42, 36, 35, 31, 27, 172}, []float64{23, 32.5, 36, 35.5, 35, 33, 35}},
+		{"multiple elements (even)", []int{23, 42, 36, 35, 31, 27}, []float64{23, 32.5, 36, 35.5, 35, 33}},
 		{"example list", []int{17, 2, 8, 27, 12, 9}, []float64{17, 9.5, 8, 12.5, 12, 10.5}},
 	}
 

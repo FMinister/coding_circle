@@ -1,6 +1,6 @@
 # `/tictactoe`
 
-Given are the playing field length n and a list of coordinates. We are looking for a function which decides for a playing field of size n*n whether the coordinates contain a winning position. Context and reference:[the native web GmbH Youtube](https://www.youtube.com/watch?v=ofs5v4jXa-k)
+Given are the playing field length n and a list of coordinates. We are looking for a function which decides for a playing field of size n*n whether the coordinates contain a winning position. Context and reference: [the native web GmbH Youtube](https://www.youtube.com/watch?v=ofs5v4jXa-k)
 
 Example:
 
@@ -9,6 +9,8 @@ Example:
 > coordinates = [(0, 0), (0, 2), (1, 1), (2, 2)]
 >
 > => true
+
+Conditions: Runtime O(n^2), Memory O(n), Single-pass.
 
 ## Solution
 

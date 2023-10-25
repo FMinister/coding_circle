@@ -3,7 +3,7 @@ package removethelastelement_test
 import (
 	"testing"
 
-	rtle "github.com/FMinister/coding_circle/remove_the_last_element"
+	rtle "github.com/FMinister/coding_circle/removethekthlastelement"
 	"github.com/stretchr/testify/assert"
 )
 

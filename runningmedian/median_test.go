@@ -3,7 +3,7 @@ package median_test
 import (
 	"testing"
 
-	"github.com/FMinister/coding_circle/median"
+	median "github.com/FMinister/coding_circle/runningmedian"
 	"github.com/stretchr/testify/assert"
 )
 

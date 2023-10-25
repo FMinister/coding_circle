@@ -1,14 +1,14 @@
-# `/remove_the_last_element`
+# `/removethekthlastelement`
 
-Remove the i-th element from the end of a list. Context and reference:[the native web GmbH Youtube](https://www.youtube.com/watch?v=kPR3IWC0Wvc)
+Remove the k-th element from the end of a list. Context and reference: [the native web GmbH Youtube](https://www.youtube.com/watch?v=kPR3IWC0Wvc)
 
-Given are: A simple linked list and an integer i.
+Given are: A simple linked list and an integer k.
 
 Example:
 
 > [1, 2, 3, 4, 5]
 >
-> i = 2
+> k = 2
 >
 > => [1, 2, 3, 5]
 

@@ -1,4 +1,4 @@
-# `/median`
+# `/runningmedian`
 
 A function is searched for that calculates the continuously updated median for a list of numbers and returns these values as a list. Context and reference: [the native web GmbH Youtube](https://www.youtube.com/watch?v=28ad9BYDHlI)
 

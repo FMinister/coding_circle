@@ -21,7 +21,7 @@ func TestHasWinningPosition(t *testing.T) {
 		{"three items in list, first row winning position", 3, []ttt.Coordinate{{0, 0}, {0, 1}, {0, 2}}, true},
 		{"three items in list, first col winning position", 3, []ttt.Coordinate{{0, 0}, {1, 0}, {2, 0}}, true},
 		{"four items in list, but no winning position", 3, []ttt.Coordinate{{0, 0}, {1, 1}, {2, 0}, {2, 1}}, false},
-		{"five items in list, but no winning position", 3, []ttt.Coordinate{{0, 0}, {0, 2}, {1, 1}, {2, 0}, {2, 1}}, false},
+		{"five items in list, but no winning position", 3, []ttt.Coordinate{{0, 0}, {0, 2}, {1, 1}, {1, 2}, {2, 1}}, false},
 		{"five items in list, row as winning position", 3, []ttt.Coordinate{{0, 0}, {1, 0}, {1, 1}, {1, 2}, {2, 1}}, true},
 	}
 

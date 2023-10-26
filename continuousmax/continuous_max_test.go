@@ -17,8 +17,8 @@ func TestGetMax(t *testing.T) {
 	}{
 		{"get max with k = 3 and list.length = 6", []int{27, 9, 17, 2, 12, 8}, 3, []int{27, 17, 17, 12}},
 		{"get max with k = 2 and list.length = 6", []int{27, 9, 17, 2, 12, 8}, 2, []int{27, 17, 17, 12, 12}},
-		{"get max with k = 4 and list.length = 10", []int{27, 9, 17, 2, 12, 8, 1, 22, 20, 44}, 10, []int{27, 17, 17, 12, 22, 22, 44}},
-		{"get max with k = 5 and list.length = 10", []int{27, 9, 17, 2, 12, 8, 1, 22, 20, 44}, 10, []int{27, 17, 17, 22, 22, 44}},
+		{"get max with k = 4 and list.length = 10", []int{27, 9, 17, 2, 12, 8, 1, 22, 20, 44}, 4, []int{27, 17, 17, 12, 22, 22, 44}},
+		{"get max with k = 5 and list.length = 10", []int{27, 9, 17, 2, 12, 8, 1, 22, 20, 44}, 5, []int{27, 17, 17, 22, 22, 44}},
 	}
 
 	for _, test := range tests {

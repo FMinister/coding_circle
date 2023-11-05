@@ -13,5 +13,5 @@ So far, the following exercises have been covered ⏳(TODO), ✔️(DONE):
 | ✔️ | [Tic-Tac-Toe](./tictactoe/) | determine a tic-tac-toe winner | ⭐️ |
 | ✔️ | [Continuous Max](./continuousmax/) | calculate the maximum value of a sliding window over a slice of integers | ⭐️⭐️⭐️ |
 | ✔️ | [Remove k-th last element](./removethekthlastelement/) | removing the k-th last element from a single-linked list | ⭐️⭐️ |
-| ⏳ | [Autocomplete](./autocomplete/) | implementing an autocomplete feature using a trie | ⭐️⭐️ |
+| ✔️ | [Autocomplete](./autocomplete/) | implementing an autocomplete feature using a trie | ⭐️⭐️ |
 | ✔️ | [Running Median](./runningmedian/) | calculate the running median of a list | ⭐️ |

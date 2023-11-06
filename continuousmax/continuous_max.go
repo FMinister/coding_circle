@@ -22,3 +22,29 @@ func GetMax(values []int, k int) []int {
 
 	return maxValues
 }
+
+func GetMaxOther(values []int, k int) []int {
+	maxValues := make([]int, 0, len(values)-k+1)
+
+	var window []int
+	for i := 0; i < len(values); i++ {
+		window = append(window, values[i])
+
+		if len(window) > k {
+			window = window[1:]
+		}
+
+		if len(window) == k {
+			maxValue := 0
+			for _, v := range window {
+				if v > maxValue {
+					maxValue = v
+				}
+			}
+
+			maxValues = append(maxValues, maxValue)
+		}
+	}
+
+	return maxValues
+}

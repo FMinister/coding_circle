@@ -5,5 +5,17 @@ func CountingSort(zipCodes []int) []int {
 }
 
 func FindMax(list []int) int {
-	return 0
+	if len(list) == 0 {
+		return 0
+	}
+
+	max := list[0]
+
+	for i := 1; i < len(list); i++ {
+		if list[i] > max {
+			max = list[i]
+		}
+	}
+
+	return max
 }

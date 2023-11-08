@@ -53,3 +53,39 @@ func TestCountingSort(t *testing.T) {
 		})
 	}
 }
+
+func TestFindMax(t *testing.T) {
+	tests := []struct {
+		description string
+		list        []int
+		max         int
+	}{
+		{
+			description: "empty list",
+			list:        []int{},
+			max:         0,
+		},
+		{
+			description: "single number in list",
+			list:        []int{84076},
+			max:         84076,
+		},
+		{
+			description: "three numbers in list",
+			list:        []int{18069, 84076, 93195},
+			max:         93195,
+		},
+		{
+			description: "ten numbers in list",
+			list:        []int{7819, 12437, 28357, 31629, 35457, 61130, 72365, 78333, 85111, 91233},
+			max:         91233,
+		},
+	}
+
+	for _, test := range tests {
+		t.Run(test.description, func(t *testing.T) {
+			result := wss.FindMax(test.list)
+			assert.Equal(t, test.max, result)
+		})
+	}
+}

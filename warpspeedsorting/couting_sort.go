@@ -1,10 +1,7 @@
 package warpspeedsorting
 
 func CountingSort(zipCodes []int) []int {
-	if len(zipCodes) == 0 {
-		return []int{}
-	}
-	if len(zipCodes) == 1 {
+	if len(zipCodes) == 0 || len(zipCodes) == 1 {
 		return zipCodes
 	}
 

@@ -1,6 +1,6 @@
 # coding_circle
 
-coding_circle contains the examples, my approaches and solutions to the little riddles from the YouTube Coding Cirle.
+coding_circle contains the examples, my approaches and solutions to the little riddles from the YouTube Coding Circle.
 
 For further context, please visit [the native Web GmbH Youtube channel](https://www.youtube.com/@thenativeweb).
 

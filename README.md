@@ -10,8 +10,9 @@ So far, the following exercises have been covered ⏳(TODO), ✔️(DONE):
 
 | Status | Topic | Description | Subjective difficulty |
 |:--------:|-------|-------------|-------------|
-| ✔️ | [Money laundering](./floydscirclefinding/) | Find out whether a single-linked list contains a loop | ⭐️ |
-| ✔️ | [Warp Speed Sorting](./warpspeedsorting/) | Sort a large number of postal codes as quickly as possible | ⭐️⭐️ |
+| ⏳ | [All But One](./allbutone/) | list the products of all numbers except the ith digit |  |
+| ✔️ | [Money laundering](./floydscirclefinding/) | find out whether a single-linked list contains a loop | ⭐️ |
+| ✔️ | [Warp Speed Sorting](./warpspeedsorting/) | sort a large number of postal codes as quickly as possible | ⭐️⭐️ |
 | ✔️ | [Tic-Tac-Toe](./tictactoe/) | determine a tic-tac-toe winner | ⭐️ |
 | ✔️ | [Continuous Max](./continuousmax/) | calculate the maximum value of a sliding window over a slice of integers | ⭐️⭐️⭐️ |
 | ✔️ | [Remove k-th last element](./removethekthlastelement/) | removing the k-th last element from a single-linked list | ⭐️⭐️ |

@@ -24,6 +24,11 @@ func TestAllButOne(t *testing.T) {
 			expected:    []int{1},
 		},
 		{
+			description: "three elements",
+			input:       []int{5, 2, 4},
+			expected:    []int{8, 20, 10},
+		},
+		{
 			description: "many elements",
 			input:       []int{27, 9, 12, 8, 17, 2},
 			expected:    []int{29376, 88128, 66096, 99144, 46656, 396576},

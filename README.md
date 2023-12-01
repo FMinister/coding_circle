@@ -10,7 +10,7 @@ So far, the following exercises have been covered ⏳(TODO), ✔️(DONE):
 
 | Status | Topic | Description | Subjective difficulty |
 |:--------:|-------|-------------|-------------|
-| ⏳ | [Higher Order Functions](./higherorderfunctions/) | implement the CAR and CDR functions|  |
+| ✔️ | [Higher Order Functions](./higherorderfunctions/) | implement the CAR and CDR functions| ⭐️⭐️ |
 | ✔️ | [All But One](./allbutone/) | list the products of all numbers except the ith digit | ⭐️ |
 | ✔️ | [Money laundering](./floydscirclefinding/) | find out whether a single-linked list contains a loop | ⭐️ |
 | ✔️ | [Warp Speed Sorting](./warpspeedsorting/) | sort a large number of postal codes as quickly as possible | ⭐️⭐️ |

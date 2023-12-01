@@ -5,6 +5,8 @@ Implement the CAR and CDR functions as known from Lisp, for example. Context and
 Given are:
 
 ```go
+type PairFunc func(int, int) int
+
 func Cons(a, b int) func(PairFunc) int {
     return func(f PairFunc) int {
         return f(a, b)

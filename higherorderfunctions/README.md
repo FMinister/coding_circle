@@ -1,0 +1,21 @@
+# `/higherorderfunctions`
+
+Implement the CAR and CDR functions as known from Lisp, for example. Context and reference: [the native web GmbH Youtube](https://www.youtube.com/watch?v=KMdZIP9TYgQ)
+
+Given are:
+
+```go
+func Cons(a, b int) func(PairFunc) int {
+    return func(f PairFunc) int {
+        return f(a, b)
+    }
+}
+```
+
+We are looking for the functions CAR and CDR, so that the following applies:
+
+> Car(Cons(3, 4)) => 3
+>
+> Cdr(Cons(3, 4)) => 4
+
+## Solution
